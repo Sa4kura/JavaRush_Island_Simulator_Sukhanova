@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import world.Cell;
 import world.Island;
 
-public class Herbivore extends Animal {
+public class Herbivore extends Animal{
     public Herbivore(AnimalType type, int x, int y) {
         super(type, x, y);
     }

@@ -5,7 +5,7 @@ import model.AnimalType;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AnimalStats {
+public class AnimalStats{
     public double weight;
     public int maxPerCell;
     public int speed;

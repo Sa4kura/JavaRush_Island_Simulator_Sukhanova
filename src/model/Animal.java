@@ -6,7 +6,7 @@ import java.util.List;
 import world.Cell;
 import world.Island;
 
-public abstract class Animal {
+public abstract class Animal{
     public AnimalType type;
     protected int x;
     protected int y;

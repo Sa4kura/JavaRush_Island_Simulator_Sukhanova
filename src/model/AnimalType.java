@@ -1,6 +1,6 @@
 package model;
 
-public enum AnimalType {
+public enum AnimalType{
     WOLF,
     BOA,
     FOX,

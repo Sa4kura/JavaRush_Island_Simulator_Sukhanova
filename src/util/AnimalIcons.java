@@ -4,7 +4,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import model.AnimalType;
 
-public class AnimalIcons {
+public class AnimalIcons{
     private static final Map<AnimalType, String> ICONS = new EnumMap(AnimalType.class);
 
     public static String get(AnimalType type) {
