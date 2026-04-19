@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import world.Cell;
 import world.Island;
 
-public class Predator extends Animal{
+public class Predator extends Animal {
     public Predator(AnimalType t, int x, int y) {
         super(t, x, y);
     }

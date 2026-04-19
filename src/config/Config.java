@@ -5,7 +5,7 @@ import model.AnimalType;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Config{
+public class Config {
     public static final int WIDTH = 50;
     public static final int HEIGHT = 30;
     public static final int TICK_DELAY = 1;

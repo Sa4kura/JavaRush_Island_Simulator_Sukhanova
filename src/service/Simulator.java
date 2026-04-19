@@ -19,7 +19,7 @@ import world.Cell;
 import world.Island;
 
 
-public class Simulator{
+public class Simulator {
     private Island island = new Island();
     private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private ExecutorService pool = Executors.newFixedThreadPool(4);

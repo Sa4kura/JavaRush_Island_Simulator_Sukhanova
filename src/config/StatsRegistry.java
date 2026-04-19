@@ -5,7 +5,7 @@ import model.AnimalType;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StatsRegistry{
+public class StatsRegistry {
     public static final Map<AnimalType, AnimalStats> stats = new HashMap();
 
     static {
