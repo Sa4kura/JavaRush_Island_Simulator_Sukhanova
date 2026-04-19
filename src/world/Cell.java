@@ -9,7 +9,7 @@ import model.AnimalType;
 
 public class Cell {
     private final Map<AnimalType, List<Animal>> animals = new ConcurrentHashMap();
-    private int plants = 30;
+    private int plants = 40;
 
     public synchronized void addAnimal(Animal animal) {
         ((List)this.animals.computeIfAbsent(animal.type, (k) -> new ArrayList())).add(animal);
@@ -41,11 +41,11 @@ public class Cell {
 
     public synchronized void growPlants() {
         if (Math.random() < 0.8) {
-            this.plants += 5;
+            this.plants += 4;
         }
 
-        if (this.plants > 200) {
-            this.plants = 200;
+        if (this.plants > 250) {
+            this.plants = 250;
         }
 
     }
